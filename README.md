@@ -4,7 +4,7 @@ Learning React.js over and over again.
 
 ## What is React.js?
 
-Based on [official website](https://reactjs.org/) React.js is A JavaScript library for building user interfaces
+Based on [official website](https://reactjs.org/) React.js is A JavaScript library for building user interfaces developed by Facebook.
 
 ## Curriculum
 
@@ -22,3 +22,9 @@ Based on [official website](https://reactjs.org/) React.js is A JavaScript libra
 12. Context API
 13. State Management with Hooks
 14. Next.js
+
+## References
+
+- [React.js official website](https://reactjs.org/)
+- [The Modern React Bootcamp](https://www.udemy.com/course/modern-react-bootcamp/)
+- [Modern React with Redux [2020 Update]](https://www.udemy.com/course/react-redux/)
