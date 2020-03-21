@@ -1,6 +1,6 @@
 # Introduction to React.js
 
-*A JavaScript library for building user interfaces.* React is a declarative library that can create interactive UIs that will efficiently update and render just the right components when data changes. React can build encapsulated components that manage their own state, then compose them to make complex UIs.
+_A JavaScript library for building user interfaces._ React is a declarative library that can create interactive UIs that will efficiently update and render just the right components when data changes. React can build encapsulated components that manage their own state, then compose them to make complex UIs.
 
 ## Components
 
@@ -20,4 +20,20 @@ class Welcome extends React.Component {
 function Hello {
     return <h1>Hello</h1>;
 }
+
+// or with ES6 Arrow function
+const Hello = () => {
+  return <h1>Hello</h1>;
+}
 ```
+
+Let's see some example with a todo list app using react components principle.
+
+![todo app](todo_app.png)
+
+- `TodoListItem` component that can be reused for each todo item in the list.
+- `TodoList` component that contains list of all the todo items.
+- `TodoForm` component that allow user to add new todo item.
+- `TodoApp` component that uses all components as above to create entire application.
+
+To create an react application, we need to understand `JSX` syntax that I will explain in the next section.
