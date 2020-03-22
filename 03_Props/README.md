@@ -31,42 +31,48 @@ import faker from 'faker';
 
 const CommentDetail = () => {
   return (
-    <div className="comment">
-      <a href="/" className="avatar">
-        <img src={faker.image.avatar()} alt="avatar" />
-      </a>
-      <div className="content">
-        <a href="/" className="author">
-          Sam
+    <div>
+      <div className="comment">
+        <a href="/" className="avatar">
+          <img src={faker.image.avatar()} alt="avatar" />
         </a>
-        <div className="metadata">
-          <span className="date">Today 5:00PM</span>
+        <div className="content">
+          <a href="/" className="author">
+            Sam
+          </a>
+          <div className="metadata">
+            <span className="date">Today 5:00PM</span>
+          </div>
+          <div className="text">Wowww! That's great!</div>
         </div>
-        <div className="text">Wowww! That's great!</div>
       </div>
-      <a href="/" className="avatar">
-        <img src={faker.image.avatar()} alt="avatar" />
-      </a>
-      <div className="content">
-        <a href="/" className="author">
-          Marvin
+      <div className="comment">
+        <a href="/" className="avatar">
+          <img src={faker.image.avatar()} alt="avatar" />
         </a>
-        <div className="metadata">
-          <span className="date">Yesterday 4:00PM</span>
+        <div className="content">
+          <a href="/" className="author">
+            Sam
+          </a>
+          <div className="metadata">
+            <span className="date">Today 5:00PM</span>
+          </div>
+          <div className="text">Wowww! That's great!</div>
         </div>
-        <div className="text">Awesome!</div>
       </div>
-      <a href="/" className="avatar">
-        <img src={faker.image.avatar()} alt="avatar" />
-      </a>
-      <div className="content">
-        <a href="/" className="author">
-          Jared
+      <div className="comment">
+        <a href="/" className="avatar">
+          <img src={faker.image.avatar()} alt="avatar" />
         </a>
-        <div className="metadata">
-          <span className="date">Yesterday 9:30AM</span>
+        <div className="content">
+          <a href="/" className="author">
+            Sam
+          </a>
+          <div className="metadata">
+            <span className="date">Today 5:00PM</span>
+          </div>
+          <div className="text">Wowww! That's great!</div>
         </div>
-        <div className="text">That's OK</div>
       </div>
     </div>
   );
