@@ -25,7 +25,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 and `CommentDetail.js`
 
-```javascript
+```JSX
 import React from 'react';
 import faker from 'faker';
 
