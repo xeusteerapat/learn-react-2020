@@ -6,7 +6,7 @@ JSX is s a "Javascript syntax extension" that allows you to write HTML and CSS i
 
 JSX syntax is look like this:
 
-```javascript
+```JSX
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -33,7 +33,7 @@ Here is a couple things you need to know about JSX
 
 and here is how we style `css` in JSX
 
-```javascript
+```JSX
 const App = () => {
   return (
     <div>
@@ -56,7 +56,7 @@ const App = () => {
 
 We also refer to javascript variables in JSX by put variable name inside `{varName}` like this:
 
-```javascript
+```JSX
 const App = () => {
   const btnText = 'CLICK ME';
   return (
@@ -82,7 +82,7 @@ here is what is displayed in the browser.
 
 or you reference to function calls like this:
 
-```javascript
+```JSX
 function getBtnText() {
   return 'Hi, there!';
 }
@@ -107,7 +107,7 @@ const App = () => {
 
 but there are some limitations about referencing variable inside JSX, first you can't refer to the object.
 
-```javascript
+```JSX
 const App = () => {
   const obj = {
     name: 'Foo'
@@ -138,7 +138,7 @@ You might think, how about `style` properties in `button` element it look like j
 
 I'll reference `style` properties with the javascript variable like this:
 
-```javascript
+```JSX
 const App = () => {
   const btnText = 'CLICK ME';
   const btnStyle = {
@@ -160,7 +160,7 @@ const App = () => {
 
 This is working the same way we write in JavaScript. Use JavaScript operators like `if` or the `conditional operator` to create elements representing the current state, and let React update the UI to match them.
 
-```javascript
+```JSX
 // ternary operators
 const App = () => {
   const num = Math.floor(Math.random() * 10);

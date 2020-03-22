@@ -6,7 +6,7 @@ OK, let's see the example. Suppose we have a component nested like this.
 
 *note: I have used a library called `faker.js` for dummy data also semantic-ui for ui*
 
-```javascript
+```JSX
 // index.js
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -41,7 +41,7 @@ const CommentDetail = () => {
             Sam
           </a>
           <div className="metadata">
-            <span className="date">Today</span>
+            <span className="date">Today 5:00PM</span>
           </div>
           <div className="text">Wowww! That's great!</div>
         </div>
@@ -55,7 +55,7 @@ const CommentDetail = () => {
             Sam
           </a>
           <div className="metadata">
-            <span className="date">Today</span>
+            <span className="date">Yesterday 9:30AM</span>
           </div>
           <div className="text">Wowww! That's great!</div>
         </div>
@@ -69,7 +69,7 @@ const CommentDetail = () => {
             Sam
           </a>
           <div className="metadata">
-            <span className="date">Today</span>
+            <span className="date">Yesterday 7:20PM</span>
           </div>
           <div className="text">Wowww! That's great!</div>
         </div>
