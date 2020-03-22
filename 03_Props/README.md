@@ -41,7 +41,7 @@ const CommentDetail = () => {
             Sam
           </a>
           <div className="metadata">
-            <span className="date">Today 5.00PM</span>
+            <span className="date">Today</span>
           </div>
           <div className="text">Wowww! That's great!</div>
         </div>
@@ -55,7 +55,7 @@ const CommentDetail = () => {
             Sam
           </a>
           <div className="metadata">
-            <span className="date">Today 5.00PM</span>
+            <span className="date">Today</span>
           </div>
           <div className="text">Wowww! That's great!</div>
         </div>
@@ -69,7 +69,7 @@ const CommentDetail = () => {
             Sam
           </a>
           <div className="metadata">
-            <span className="date">Today 5.00PM</span>
+            <span className="date">Today</span>
           </div>
           <div className="text">Wowww! That's great!</div>
         </div>
