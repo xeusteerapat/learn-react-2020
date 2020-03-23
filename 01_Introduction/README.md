@@ -36,4 +36,89 @@ Let's see some example with a todo list app using react components principle.
 - `TodoForm` component that allow user to add new todo item.
 - `TodoApp` component that uses all components as above to create entire application.
 
-To create an react application, we need to understand `JSX` syntax that I will explain in the next section.
+Here is how we create and nested our components in React.
+
+I'll create 4 React components `TodoListItem.js`, `TodoList.js`, `TodoForm.js` and `App.js` like this:
+
+![components](components.png)
+
+then inside each components, we'll use JSX just like this.
+
+```JSX
+// TodoListItem
+import React from 'react';
+
+const TodoListItem = () => {
+  return (
+    <div>
+      <ul>
+        <li>Todo 1</li>
+      </ul>
+    </div>
+  );
+};
+
+export default TodoListItem;
+```
+
+```JSX
+// TodoList
+import React from 'react';
+import TodoListItem from './TodoListItem';
+
+const TodoList = () => {
+  return (
+    <div>
+      <h3>This is what you need to do...</h3>
+      <TodoListItem />
+      <TodoListItem />
+      <TodoListItem />
+      <TodoListItem />
+    </div>
+  );
+};
+
+export default TodoList;
+```
+
+```JSX
+// TodoForm
+import React from 'react';
+
+const TodoForm = () => {
+  return (
+    <div>
+      <form action="">
+        <input type="text" />
+        <button>ADD</button>
+      </form>
+    </div>
+  );
+};
+
+export default TodoForm;
+```
+
+```JSX
+// App.js
+import React from 'react';
+import TodoForm from './TodoForm';
+import TodoList from './TodoList';
+
+const App = () => {
+  return (
+    <div>
+      <TodoForm />
+      <TodoList />
+    </div>
+  );
+};
+
+export default App;
+```
+
+and here is what we will see in the browser.
+
+![Todo](todolist.png)
+
+This is just a simple example to give you a better understanding how we use components in React app. To create more complex react application, we need to understand `JSX` syntax that I will explain in the next section.
